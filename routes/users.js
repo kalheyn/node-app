@@ -31,7 +31,7 @@ router.post('/', async (req, res) => {
 
     // Return a token validating that user is logged in
     const token = user.generateAuthToken()
-    res.header('x-auth-token', token).send(_.pick(user, ['_id', 'name', 'email'])); 
+    res.header('x-auth-token', token).send(_.pick(user, ['_id', 'name', 'email', 'isAdmin'])); 
 });
 
 module.exports = router; 
