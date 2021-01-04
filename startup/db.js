@@ -1,4 +1,5 @@
 const mongoose = require('mongoose');
+const logger = require('./startup/logging');
 
 module.exports = function() {
     mongoose.connect('mongodb://localhost/node-app', { 
@@ -7,8 +8,8 @@ module.exports = function() {
         useFindAndModify: false, 
         useCreateIndex: true 
     })
-        .then(() => console.log('Connected to MongoDB...'))
-        .catch((ex) => console.log("Could not connect to MongoDB."));
+        .then(() => logger.errorLog.info('Connected to MongoDB...'))
+        .catch((ex) => logger.errorLog.Error("Could not connect to MongoDB."));
 }
 
 // connect to database using `$ mongod --dbpath=/Users/kalmanheyn/data/db`
