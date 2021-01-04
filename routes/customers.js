@@ -18,7 +18,6 @@ router.post('/', async (req, res) => {
 });
 
 router.get('/', async (req, res) => {
-    throw new Error('Could not get customers.');
     const customers = await Customer.find().sort('name'); 
     res.send(customers);
 });
