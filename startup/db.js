@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 module.exports = function() {
-    mongoose.connect('mongodb://localhost/video-store', { 
+    mongoose.connect('mongodb://localhost/node-app', { 
         useNewUrlParser: true, 
         useUnifiedTopology: true, 
         useFindAndModify: false, 
