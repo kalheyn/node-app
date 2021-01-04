@@ -7,7 +7,8 @@ module.exports = function() {
         useFindAndModify: false, 
         useCreateIndex: true 
     })
-        .then(() => console.log('Connected to MongoDB...'));
+        .then(() => console.log('Connected to MongoDB...'))
+        .catch((ex) => console.log("Could not connect to MongoDB."));
 }
 
 // connect to database using `$ mongod --dbpath=/Users/kalmanheyn/data/db`
