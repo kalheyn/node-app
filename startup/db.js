@@ -8,8 +8,8 @@ module.exports = function() {
         useFindAndModify: false, 
         useCreateIndex: true 
     })
-        .then(() => logger.errorLog.info('Connected to MongoDB...'))
-        .catch((ex) => logger.errorLog.Error("Could not connect to MongoDB."));
+        .then(() => logger.log.info('Connected to MongoDB...'))
+        .catch((ex) => logger.log.Error("Could not connect to MongoDB."));
 }
 
 // connect to database using `$ mongod --dbpath=/Users/kalmanheyn/data/db`

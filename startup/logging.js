@@ -2,7 +2,7 @@ const winston = require('winston');
 require('express-async-errors');
 require('winston-mongodb');
 
-const errorLog = winston.createLogger({
+const log = winston.createLogger({
     transports: [
         new winston.transports.File({ 
             filename: 'logfile.log' 
@@ -25,5 +25,5 @@ process.on('unhandledRejection', (ex) => {
   });
 
 module.exports = {
-    errorLog: errorLog
+    log: log
 };
