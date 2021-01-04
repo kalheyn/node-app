@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const logger = require('./startup/logging');
+const logger = require('./logging');
 
 module.exports = function() {
     mongoose.connect('mongodb://localhost/node-app', { 
