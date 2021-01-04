@@ -9,7 +9,6 @@ const log = winston.createLogger({
         }),
         new winston.transports.MongoDB({
             db: 'mongodb://localhost/node-app',
-            // level: 'info'e
         }), 
         new winston.transports.Console(),
     ], 
