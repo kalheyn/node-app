@@ -4,11 +4,11 @@ The Node-App is a mock-video store web application built with Node, Express, and
 
 ## Getting Started
 
-Follow these instructions to run this web application on your own machine.
+You can follow these instructions to run this web application on your own machine.
 
 ### Download Files
 
-Start by downloading the files from this git repository. Here is one way of doing so:
+Get started by downloading the files from this git repository. Here is one way of doing so:
 
 1. Code > Download ZIP
 2. Save ZIP and extract files
