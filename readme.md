@@ -4,32 +4,32 @@ The Node-App is a mock-video store web application built with Node, Express, and
 
 ## Course Curriculum
 
-#### Getting Started
+### Getting Started
 
-#### Node Module System
+### Node Module System
 
-#### Node Package Manager (NPM)
+### Node Package Manager (NPM)
 
-#### Building RESTful API's Using Express
+### Building RESTful API's Using Express
 
-#### Express - Advanced Topics
+### Express - Advanced Topics
 
-#### Asynchronous JavaScript
+### Asynchronous JavaScript
 
-#### CRUD Operations Using Mongoose
+### CRUD Operations Using Mongoose
 
-#### Mongo - Data Validation
+### Mongo - Data Validation
 
-#### Mongoose - Modeling Relationships between Connected Data
+### Mongoose - Modeling Relationships between Connected Data
 
-#### Authentication and Authorization
+### Authentication and Authorization
 
-#### Handling and Logging Errors
+### Handling and Logging Errors
 
-#### Unit Testing
+### Unit Testing
 
-#### Integration Testing
+### Integration Testing
 
-#### Test-Driven Development
+### Test-Driven Development
 
-#### Deployment
+### Deployment
