@@ -2,7 +2,7 @@
 
 The Node-App is a mock-video store web application built with Node, Express, and MongoDB. It is based on [The Complete Node.js Course](https://codewithmosh.com/p/the-complete-node-js-course) by [Mosh Hamedani](https://github.com/mosh-hamedani). The topics covered in the course and demonstrated in the Node application are listed below.
 
-## How to Run NODE-APP
+## Getting Started
 
 Follow these instructions to run this web application on your own machine.
 
